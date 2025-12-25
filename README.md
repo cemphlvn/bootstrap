@@ -4,9 +4,16 @@ Meta-agentic bootstrap kit. Self-aware system that builds itself to build your p
 
 ## Usage
 
+**Option A — GitHub Template (recommended)**
+1. Click "Use this template" on [GitHub](https://github.com/cemphlvn/bootstrap)
+2. Clone your new repo
+3. `claude` → `/start`
+
+**Option B — Manual**
 ```bash
-git clone https://github.com/you/cortex my-project
+git clone https://github.com/cemphlvn/bootstrap my-project
 cd my-project
+rm -rf .git && git init
 claude
 > /start
 ```
